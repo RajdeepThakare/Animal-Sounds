@@ -14,31 +14,84 @@ class _CategoryState extends State<Category> {
         title: Text("Category of Animals"),
         centerTitle: true,
       ),
-      body: Column(
-        mainAxisAlignment: MainAxisAlignment.start,
-        crossAxisAlignment: CrossAxisAlignment.stretch,
-        children: <Widget>[
-          Container(
-            height: 300,
-            width: 300,
-            decoration: BoxDecoration(
-              border: Border.all(width: 5),
-              borderRadius: BorderRadius.all(
-                  Radius.circular(10) //         <--- border radius here
+      body: SingleChildScrollView(
+              child: Column(
+          mainAxisAlignment: MainAxisAlignment.start,
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: <Widget>[
+            Padding(
+              padding: const EdgeInsets.fromLTRB(1, 1, 1, 1),
+              child: Container(
+                height: 300,
+                width: 300,
+                decoration: BoxDecoration(
+                  border: Border.all(width: 3),
+                  borderRadius: BorderRadius.all(
+                      Radius.circular(10) //         <--- border radius here
+                      ),
+                  image: DecorationImage(
+                    image: AssetImage('assets/images/Mammals.jpg'),
                   ),
-              image: DecorationImage(
-                image: AssetImage('assets/images/Mammals.jpg'),
+                ),
+                child: FlatButton(
+                  padding: EdgeInsets.all(0.0),
+                  onPressed: () {
+                    Navigator.pushNamed(context, '/mammals');
+                  },
+                  child: null,
+                ),
               ),
             ),
-            child: FlatButton(
-              padding: EdgeInsets.all(0.0),
-              onPressed: () {
-                Navigator.pushNamed(context, '/mammals');
-              },
-              child: null,
+            SizedBox(height: 1),
+            Padding(
+              padding: const EdgeInsets.fromLTRB(1, 1, 1, 1),
+              child: Container(
+                height: 300,
+                width: 300,
+                decoration: BoxDecoration(
+                  border: Border.all(width: 3),
+                  borderRadius: BorderRadius.all(
+                      Radius.circular(10) //         <--- border radius here
+                      ),
+                  image: DecorationImage(
+                    image: AssetImage('assets/images/Mammals.jpg'),
+                  ),
+                ),
+                child: FlatButton(
+                  padding: EdgeInsets.all(0.0),
+                  onPressed: () {
+                    Navigator.pushNamed(context, '/mammals');
+                  },
+                  child: null,
+                ),
+              ),
             ),
-          ),
-        ],
+            SizedBox(height: 1),
+            Padding(
+              padding: const EdgeInsets.fromLTRB(1, 1, 1, 1),
+              child: Container(
+                height: 300,
+                width: 300,
+                decoration: BoxDecoration(
+                  border: Border.all(width: 3),
+                  borderRadius: BorderRadius.all(
+                      Radius.circular(10) //         <--- border radius here
+                      ),
+                  image: DecorationImage(
+                    image: AssetImage('assets/images/Mammals.jpg'),
+                  ),
+                ),
+                child: FlatButton(
+                  padding: EdgeInsets.all(0.0),
+                  onPressed: () {
+                    Navigator.pushNamed(context, '/mammals');
+                  },
+                  child: null,
+                ),
+              ),
+            ),
+          ],
+        ),
       ),
     ));
   }
