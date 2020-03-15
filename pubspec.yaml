@@ -54,12 +54,14 @@ flutter:
     - assets/images/mammals/horse.jpg
     - assets/images/mammals/lamb.jpg
     - assets/images/mammals/pig.jpg
+    - assets/images/mammals/rhino.jpg
 
     - assets/audio/mammals/cat.mp3
     - assets/audio/mammals/dog.mp3
     - assets/audio/mammals/pig.mp3
     - assets/audio/mammals/lamb.wav
     - assets/audio/mammals/horse.wav
+    - assets/audio/mammals/rhino.mp3
   #  - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
