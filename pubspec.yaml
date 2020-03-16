@@ -91,6 +91,20 @@ flutter:
     - assets/audio/reptiles/indiangharil.m4a
     - assets/audio/reptiles/rattlesnake.mp3
 
+    - assets/images/arthropods/bee.jpg
+    - assets/images/arthropods/bumblebee.jpg
+    - assets/images/arthropods/cicada.jpg
+    - assets/images/arthropods/cockroach.jpg
+    - assets/images/arthropods/crab.jpg
+    - assets/images/arthropods/mosquito.jpg
+
+    - assets/audio/arthropods/bee.m4a
+    - assets/audio/arthropods/bumblebee.m4a
+    - assets/audio/arthropods/cicada.m4a
+    - assets/audio/arthropods/cockroach.m4a
+    - assets/audio/arthropods/crab.m4a
+    - assets/audio/arthropods/mosquito.m4a
+
   #  - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
