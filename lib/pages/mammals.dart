@@ -55,7 +55,7 @@ class _MammalsState extends State<Mammals> {
                           //------------------------------
                           Scaffold.of(context).showSnackBar(SnackBar(
                             content: Text('Cat Meoww'),
-                            duration: Duration(milliseconds: 400),
+                            duration: Duration(milliseconds: 1000),
                           ));
                           //-------------------------------
                         },
@@ -86,7 +86,7 @@ class _MammalsState extends State<Mammals> {
                           //------------------------------
                           Scaffold.of(context).showSnackBar(SnackBar(
                             content: Text('Dog Bark'),
-                            duration: Duration(milliseconds: 400),
+                            duration: Duration(milliseconds: 1000),
                           ));
                           //-------------------------------
                         },
@@ -123,7 +123,7 @@ class _MammalsState extends State<Mammals> {
                           //------------------------------
                           Scaffold.of(context).showSnackBar(SnackBar(
                             content: Text('Pig Squeal'),
-                            duration: Duration(milliseconds: 400),
+                            duration: Duration(milliseconds: 1000),
                           ));
                           //-------------------------------
                         },
@@ -154,7 +154,7 @@ class _MammalsState extends State<Mammals> {
                           //------------------------------
                           Scaffold.of(context).showSnackBar(SnackBar(
                             content: Text('Rhinos .....'),
-                            duration: Duration(milliseconds: 400),
+                            duration: Duration(milliseconds: 1000),
                           ));
                           //-------------------------------
                         },
@@ -191,7 +191,7 @@ class _MammalsState extends State<Mammals> {
                           //------------------------------
                           Scaffold.of(context).showSnackBar(SnackBar(
                             content: Text('Lamb Baaa'),
-                            duration: Duration(milliseconds: 400),
+                            duration: Duration(milliseconds: 1000),
                           ));
                           //-------------------------------
                         },
@@ -222,7 +222,7 @@ class _MammalsState extends State<Mammals> {
                           //------------------------------
                           Scaffold.of(context).showSnackBar(SnackBar(
                             content: Text('Horse Whynning'),
-                            duration: Duration(milliseconds: 400),
+                            duration: Duration(milliseconds: 1000),
                           ));
                           //-------------------------------
                         },

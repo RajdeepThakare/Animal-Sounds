@@ -54,7 +54,7 @@ class _BirdsState extends State<Birds> {
                           //------------------------------
                           Scaffold.of(context).showSnackBar(SnackBar(
                             content: Text('Raven...'),
-                            duration: Duration(milliseconds: 400),
+                            duration: Duration(milliseconds: 1000),
                           ));
                           //-------------------------------
                         },
@@ -85,7 +85,7 @@ class _BirdsState extends State<Birds> {
                           //------------------------------
                           Scaffold.of(context).showSnackBar(SnackBar(
                             content: Text('RedLori....'),
-                            duration: Duration(milliseconds: 400),
+                            duration: Duration(milliseconds: 1000),
                           ));
                           //-------------------------------
                         },
@@ -122,7 +122,7 @@ class _BirdsState extends State<Birds> {
                           //------------------------------
                           Scaffold.of(context).showSnackBar(SnackBar(
                             content: Text('Snow Owl'),
-                            duration: Duration(milliseconds: 400),
+                            duration: Duration(milliseconds: 1000),
                           ));
                           //-------------------------------
                         },
@@ -153,7 +153,7 @@ class _BirdsState extends State<Birds> {
                           //------------------------------
                           Scaffold.of(context).showSnackBar(SnackBar(
                             content: Text('Sparrow .....'),
-                            duration: Duration(milliseconds: 400),
+                            duration: Duration(milliseconds: 1000),
                           ));
                           //-------------------------------
                         },
@@ -190,7 +190,7 @@ class _BirdsState extends State<Birds> {
                           //------------------------------
                           Scaffold.of(context).showSnackBar(SnackBar(
                             content: Text('WoodPecker...'),
-                            duration: Duration(milliseconds: 400),
+                            duration: Duration(milliseconds: 1000),
                           ));
                           //-------------------------------
                         },
@@ -221,7 +221,7 @@ class _BirdsState extends State<Birds> {
                           //------------------------------
                           Scaffold.of(context).showSnackBar(SnackBar(
                             content: Text('Red Parrot'),
-                            duration: Duration(milliseconds: 400),
+                            duration: Duration(milliseconds: 1000),
                           ));
                           //-------------------------------
                         },

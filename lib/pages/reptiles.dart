@@ -55,7 +55,7 @@ class _ReptilesState extends State<Reptiles> {
                           //------------------------------
                           Scaffold.of(context).showSnackBar(SnackBar(
                             content: Text('Alligator...'),
-                            duration: Duration(milliseconds: 400),
+                            duration: Duration(milliseconds: 1000),
                           ));
                           //-------------------------------
                         },
@@ -86,7 +86,7 @@ class _ReptilesState extends State<Reptiles> {
                           //------------------------------
                           Scaffold.of(context).showSnackBar(SnackBar(
                             content: Text('argentinian tortoise....'),
-                            duration: Duration(milliseconds: 400),
+                            duration: Duration(milliseconds: 1000),
                           ));
                           //-------------------------------
                         },
@@ -123,7 +123,7 @@ class _ReptilesState extends State<Reptiles> {
                           //------------------------------
                           Scaffold.of(context).showSnackBar(SnackBar(
                             content: Text('Cobra'),
-                            duration: Duration(milliseconds: 400),
+                            duration: Duration(milliseconds: 1000),
                           ));
                           //-------------------------------
                         },
@@ -154,7 +154,7 @@ class _ReptilesState extends State<Reptiles> {
                           //------------------------------
                           Scaffold.of(context).showSnackBar(SnackBar(
                             content: Text('Gecko .....'),
-                            duration: Duration(milliseconds: 400),
+                            duration: Duration(milliseconds: 1000),
                           ));
                           //-------------------------------
                         },
@@ -191,7 +191,7 @@ class _ReptilesState extends State<Reptiles> {
                           //------------------------------
                           Scaffold.of(context).showSnackBar(SnackBar(
                             content: Text('Indain Gharil...'),
-                            duration: Duration(milliseconds: 400),
+                            duration: Duration(milliseconds: 1000),
                           ));
                           //-------------------------------
                         },
@@ -222,7 +222,7 @@ class _ReptilesState extends State<Reptiles> {
                           //------------------------------
                           Scaffold.of(context).showSnackBar(SnackBar(
                             content: Text('Rattle Snake'),
-                            duration: Duration(milliseconds: 400),
+                            duration: Duration(milliseconds: 1000),
                           ));
                           //-------------------------------
                         },
