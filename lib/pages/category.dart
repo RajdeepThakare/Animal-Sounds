@@ -13,7 +13,7 @@ class _CategoryState extends State<Category> {
   static const MobileAdTargetingInfo targetingInfo = MobileAdTargetingInfo(
     testDevices: testDevice != null ? <String>[testDevice] : null,
     nonPersonalizedAds: true,
-    keywords: <String>['Game', 'Mario'],
+    keywords: <String>['Game', 'Mario', 'Animals', 'Music'],
   );
 
   BannerAd _bannerAd;
