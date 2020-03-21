@@ -1,4 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:firebase_admob/firebase_admob.dart';
+
+const String testDevice = 'A322779BE8D0DA7C59FE4F5F99C1C032';
+
 
 class Category extends StatefulWidget {
   @override
@@ -6,6 +10,42 @@ class Category extends StatefulWidget {
 }
 
 class _CategoryState extends State<Category> {
+  static const MobileAdTargetingInfo targetingInfo = MobileAdTargetingInfo(
+    testDevices: testDevice != null ? <String>[testDevice] : null,
+    nonPersonalizedAds: true,
+    keywords: <String>['Game', 'Mario'],
+  );
+
+  BannerAd _bannerAd;
+  InterstitialAd _interstitialAd;
+
+  BannerAd createBannerAd() {
+    return BannerAd(
+        adUnitId: 'ca-app-pub-1474854637192516/7377653064',
+        //Change BannerAd adUnitId with Admob ID
+        size: AdSize.banner,
+        targetingInfo: targetingInfo,
+        listener: (MobileAdEvent event) {
+          print("BannerAd $event");
+        });
+  }
+
+  @override
+  void initState() {
+    FirebaseAdMob.instance.initialize(appId: 'ca-app-pub-1474854637192516~6047285758');
+    //Change appId With Admob Id
+    _bannerAd = createBannerAd()
+      ..load()
+      ..show();
+    super.initState();
+  }
+
+  @override
+  void dispose() {
+    _bannerAd.dispose();
+    _interstitialAd.dispose();
+    super.dispose();
+  }
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -118,4 +158,5 @@ class _CategoryState extends State<Category> {
       ),
     );
   }
+  
 }
