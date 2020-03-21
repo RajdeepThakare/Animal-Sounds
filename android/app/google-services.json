@@ -1,34 +1,34 @@
 {
   "project_info": {
-    "project_number": "397240026674",
-    "firebase_url": "https://animal-sounds1.firebaseio.com",
-    "project_id": "animal-sounds1",
-    "storage_bucket": "animal-sounds1.appspot.com"
+    "project_number": "414997746094",
+    "firebase_url": "https://animal-sounds-ads.firebaseio.com",
+    "project_id": "animal-sounds-ads",
+    "storage_bucket": "animal-sounds-ads.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:397240026674:android:b7dff0d268dc17795dde2b",
+        "mobilesdk_app_id": "1:414997746094:android:ef8abdf659a139d19eb83f",
         "android_client_info": {
           "package_name": "com.example.animal_sounds"
         }
       },
       "oauth_client": [
         {
-          "client_id": "397240026674-oh48i7ede6rph9rg6jfic99vnoickoe3.apps.googleusercontent.com",
+          "client_id": "414997746094-bs8mgdeu2o01fsr8cug1ebd584mpm31c.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCpMRB9KoBU0l519_WM7xeyX8FhFiCnAIY"
+          "current_key": "AIzaSyB7FlZRPJeJ1hsAWnjQB04K_p3YGX24O7g"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "397240026674-oh48i7ede6rph9rg6jfic99vnoickoe3.apps.googleusercontent.com",
+              "client_id": "414997746094-bs8mgdeu2o01fsr8cug1ebd584mpm31c.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

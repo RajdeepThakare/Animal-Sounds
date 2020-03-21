@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_admob/firebase_admob.dart';
 
-const String testDevice = 'Mobile_id';
+const String testDevice = 'A322779BE8D0DA7C59FE4F5F99C1C032';
 
 
 class Category extends StatefulWidget {
@@ -21,7 +21,7 @@ class _CategoryState extends State<Category> {
 
   BannerAd createBannerAd() {
     return BannerAd(
-        adUnitId: BannerAd.testAdUnitId,
+        adUnitId: 'ca-app-pub-1474854637192516/3478485240',
         //Change BannerAd adUnitId with Admob ID
         size: AdSize.banner,
         targetingInfo: targetingInfo,
@@ -32,7 +32,7 @@ class _CategoryState extends State<Category> {
 
   @override
   void initState() {
-    FirebaseAdMob.instance.initialize(appId: BannerAd.testAdUnitId);
+    FirebaseAdMob.instance.initialize(appId: 'ca-app-pub-1474854637192516~9270346909');
     //Change appId With Admob Id
     _bannerAd = createBannerAd()
       ..load()
