@@ -153,6 +153,7 @@ class _CategoryState extends State<Category> {
                 ),
               ),
             ),
+            SizedBox(height: 50),
           ],
         ),
       ),
