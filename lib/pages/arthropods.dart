@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:audioplayers/audio_cache.dart';
 import 'package:audioplayers/audioplayers.dart';
+import 'package:toast/toast.dart';
 
 class Arthropods extends StatefulWidget {
   @override
@@ -8,8 +9,6 @@ class Arthropods extends StatefulWidget {
 }
 
 class _ArthropodsState extends State<Arthropods> {
-  
-
   AudioCache _audioCache;
 
   @override
@@ -20,6 +19,7 @@ class _ArthropodsState extends State<Arthropods> {
         prefix: "audio/arthropods/",
         fixedPlayer: AudioPlayer()..setReleaseMode(ReleaseMode.STOP));
   }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -28,10 +28,10 @@ class _ArthropodsState extends State<Arthropods> {
         centerTitle: true,
       ),
       body: SingleChildScrollView(
-              child: Column(
+        child: Column(
           children: <Widget>[
             Padding(
-              padding: const EdgeInsets.fromLTRB(4,4,4,0),
+              padding: const EdgeInsets.fromLTRB(4, 4, 4, 0),
               child: Row(
                 children: <Widget>[
                   Builder(
@@ -54,11 +54,12 @@ class _ArthropodsState extends State<Arthropods> {
                         onPressed: () {
                           _audioCache.play('bee.m4a');
                           //------------------------------
-                         // Scaffold.of(context).showSnackBar(SnackBar(
-                         //  content: Text('Bee...'),
+                          // Scaffold.of(context).showSnackBar(SnackBar(
+                          //  content: Text('Bee...'),
                           //  duration: Duration(milliseconds: 400),
-                         // ));
+                          // ));
                           //-------------------------------
+                          Toast.show("Bee", context, duration: Toast.LENGTH_SHORT, gravity:  Toast.BOTTOM);
                           
                         },
                         child: null,
@@ -72,7 +73,8 @@ class _ArthropodsState extends State<Arthropods> {
                       width: 200,
                       decoration: BoxDecoration(
                         image: DecorationImage(
-                          image: AssetImage('assets/images/arthropods/bumblebee.jpg'),
+                          image: AssetImage(
+                              'assets/images/arthropods/bumblebee.jpg'),
                         ),
                         borderRadius:
                             new BorderRadius.all(new Radius.circular(50.0)),
@@ -86,11 +88,12 @@ class _ArthropodsState extends State<Arthropods> {
                         onPressed: () {
                           _audioCache.play('bumblebee.m4a');
                           //------------------------------
-                         // Scaffold.of(context).showSnackBar(SnackBar(
+                          // Scaffold.of(context).showSnackBar(SnackBar(
                           //  content: Text('Bumble Bee....'),
                           //  duration: Duration(milliseconds: 400),
-                         // ));
+                          // ));
                           //-------------------------------
+                          Toast.show("Bumble Bee", context, duration: Toast.LENGTH_SHORT, gravity:  Toast.BOTTOM);
                         },
                         child: null,
                       ),
@@ -100,7 +103,7 @@ class _ArthropodsState extends State<Arthropods> {
               ),
             ),
             Padding(
-              padding: const EdgeInsets.fromLTRB(4,4,4,0),
+              padding: const EdgeInsets.fromLTRB(4, 4, 4, 0),
               child: Row(
                 children: <Widget>[
                   Builder(
@@ -109,7 +112,8 @@ class _ArthropodsState extends State<Arthropods> {
                       width: 200,
                       decoration: BoxDecoration(
                         image: DecorationImage(
-                          image: AssetImage('assets/images/arthropods/cicada.jpg'),
+                          image:
+                              AssetImage('assets/images/arthropods/cicada.jpg'),
                         ),
                         borderRadius:
                             new BorderRadius.all(new Radius.circular(50.0)),
@@ -123,11 +127,12 @@ class _ArthropodsState extends State<Arthropods> {
                         onPressed: () {
                           _audioCache.play('cicada.m4a');
                           //------------------------------
-                         // Scaffold.of(context).showSnackBar(SnackBar(
-                         //   content: Text('Cicada...'),
-                         //   duration: Duration(milliseconds: 400),
-                         // ));
+                          // Scaffold.of(context).showSnackBar(SnackBar(
+                          //   content: Text('Cicada...'),
+                          //   duration: Duration(milliseconds: 400),
+                          // ));
                           //-------------------------------
+                          Toast.show("Cicada", context, duration: Toast.LENGTH_SHORT, gravity:  Toast.BOTTOM);
                         },
                         child: null,
                       ),
@@ -140,7 +145,8 @@ class _ArthropodsState extends State<Arthropods> {
                       width: 200,
                       decoration: BoxDecoration(
                         image: DecorationImage(
-                          image: AssetImage('assets/images/arthropods/cockroach.jpg'),
+                          image: AssetImage(
+                              'assets/images/arthropods/cockroach.jpg'),
                         ),
                         borderRadius:
                             new BorderRadius.all(new Radius.circular(50.0)),
@@ -154,11 +160,12 @@ class _ArthropodsState extends State<Arthropods> {
                         onPressed: () {
                           _audioCache.play('cockroach.m4a');
                           //------------------------------
-                         // Scaffold.of(context).showSnackBar(SnackBar(
-                         //   content: Text('cockroach .....'),
-                         //   duration: Duration(milliseconds: 400),
-                         // ));
+                          // Scaffold.of(context).showSnackBar(SnackBar(
+                          //   content: Text('cockroach .....'),
+                          //   duration: Duration(milliseconds: 400),
+                          // ));
                           //-------------------------------
+                          Toast.show("Cockroach", context, duration: Toast.LENGTH_SHORT, gravity:  Toast.BOTTOM);
                         },
                         child: null,
                       ),
@@ -168,7 +175,7 @@ class _ArthropodsState extends State<Arthropods> {
               ),
             ),
             Padding(
-              padding: const EdgeInsets.fromLTRB(4,4,4,4),
+              padding: const EdgeInsets.fromLTRB(4, 4, 4, 4),
               child: Row(
                 children: <Widget>[
                   Builder(
@@ -177,25 +184,27 @@ class _ArthropodsState extends State<Arthropods> {
                       width: 200,
                       decoration: BoxDecoration(
                         image: DecorationImage(
-                          image: AssetImage('assets/images/arthropods/crab.jpg'),
+                          image:
+                              AssetImage('assets/images/arthropods/crab.jpg'),
                         ),
                         borderRadius:
-                              new BorderRadius.all(new Radius.circular(50.0)),
-                          border: new Border.all(
-                            color: Colors.grey[800],
-                            width: 4.0,
-                          ),
+                            new BorderRadius.all(new Radius.circular(50.0)),
+                        border: new Border.all(
+                          color: Colors.grey[800],
+                          width: 4.0,
+                        ),
                       ),
                       child: FlatButton(
                         padding: EdgeInsets.all(0.0),
                         onPressed: () {
                           _audioCache.play('crab.m4a');
                           //------------------------------
-                        //  Scaffold.of(context).showSnackBar(SnackBar(
-                        //    content: Text('Crab...'),
-                         //   duration: Duration(milliseconds: 400),
-                        //  ));
+                          //  Scaffold.of(context).showSnackBar(SnackBar(
+                          //    content: Text('Crab...'),
+                          //   duration: Duration(milliseconds: 400),
+                          //  ));
                           //-------------------------------
+                          Toast.show("Crab", context, duration: Toast.LENGTH_SHORT, gravity:  Toast.BOTTOM);
                         },
                         child: null,
                       ),
@@ -208,7 +217,8 @@ class _ArthropodsState extends State<Arthropods> {
                       width: 200,
                       decoration: BoxDecoration(
                         image: DecorationImage(
-                          image: AssetImage('assets/images/arthropods/mosquito.jpg'),
+                          image: AssetImage(
+                              'assets/images/arthropods/mosquito.jpg'),
                         ),
                         borderRadius:
                             new BorderRadius.all(new Radius.circular(50.0)),
@@ -222,11 +232,12 @@ class _ArthropodsState extends State<Arthropods> {
                         onPressed: () {
                           _audioCache.play('mosquito.m4a');
                           //------------------------------
-                        //  Scaffold.of(context).showSnackBar(SnackBar(
-                        //    content: Text('Mosquito...'),
-                         //   duration: Duration(milliseconds: 400),
-                         // ));
+                          //  Scaffold.of(context).showSnackBar(SnackBar(
+                          //    content: Text('Mosquito...'),
+                          //   duration: Duration(milliseconds: 400),
+                          // ));
                           //-------------------------------
+                          Toast.show("Mosquito", context, duration: Toast.LENGTH_SHORT, gravity:  Toast.BOTTOM);
                         },
                         child: null,
                       ),

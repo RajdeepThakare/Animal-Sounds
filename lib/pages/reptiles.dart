@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:audioplayers/audio_cache.dart';
 import 'package:audioplayers/audioplayers.dart';
+import 'package:toast/toast.dart';
 
 class Reptiles extends StatefulWidget {
   @override
@@ -58,6 +59,7 @@ class _ReptilesState extends State<Reptiles> {
                         //    duration: Duration(milliseconds: 400),
                         //  ));
                           //-------------------------------
+                          Toast.show("Alligator", context, duration: Toast.LENGTH_SHORT, gravity:  Toast.BOTTOM);
                         },
                         child: null,
                       ),
@@ -89,6 +91,7 @@ class _ReptilesState extends State<Reptiles> {
                          //   duration: Duration(milliseconds: 400),
                          // ));
                           //-------------------------------
+                          Toast.show("Argentinian Tortoise", context, duration: Toast.LENGTH_SHORT, gravity:  Toast.BOTTOM);
                         },
                         child: null,
                       ),
@@ -126,6 +129,7 @@ class _ReptilesState extends State<Reptiles> {
                           //  duration: Duration(milliseconds: 400),
                           //));
                           //-------------------------------
+                          Toast.show("Cobraa", context, duration: Toast.LENGTH_SHORT, gravity:  Toast.BOTTOM);
                         },
                         child: null,
                       ),
@@ -157,6 +161,7 @@ class _ReptilesState extends State<Reptiles> {
                          //   duration: Duration(milliseconds: 400),
                          // ));
                           //-------------------------------
+                          Toast.show("Gecko", context, duration: Toast.LENGTH_SHORT, gravity:  Toast.BOTTOM);
                         },
                         child: null,
                       ),
@@ -194,6 +199,7 @@ class _ReptilesState extends State<Reptiles> {
                          //   duration: Duration(milliseconds: 400),
                          // ));
                           //-------------------------------
+                          Toast.show("Indian Gharial", context, duration: Toast.LENGTH_SHORT, gravity:  Toast.BOTTOM);
                         },
                         child: null,
                       ),
@@ -225,6 +231,7 @@ class _ReptilesState extends State<Reptiles> {
                          //   duration: Duration(milliseconds: 400),
                          // ));
                           //-------------------------------
+                          Toast.show("Rattle Snake", context, duration: Toast.LENGTH_SHORT, gravity:  Toast.BOTTOM);
                         },
                         child: null,
                       ),

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:audioplayers/audio_cache.dart';
 import 'package:audioplayers/audioplayers.dart';
+import 'package:toast/toast.dart';
 
 class Mammals extends StatefulWidget {
   @override
@@ -58,6 +59,7 @@ class _MammalsState extends State<Mammals> {
                          //   duration: Duration(milliseconds: 400),
                         //  ));
                           //-------------------------------
+                          Toast.show("Cat", context, duration: Toast.LENGTH_SHORT, gravity:  Toast.BOTTOM);
                         },
                         child: null,
                       ),
@@ -89,6 +91,7 @@ class _MammalsState extends State<Mammals> {
                          //   duration: Duration(milliseconds: 400),
                          // ));
                           //-------------------------------
+                          Toast.show("Dog", context, duration: Toast.LENGTH_SHORT, gravity:  Toast.BOTTOM);
                         },
                         child: null,
                       ),
@@ -126,6 +129,7 @@ class _MammalsState extends State<Mammals> {
                          //   duration: Duration(milliseconds: 400),
                         //  ));
                           //-------------------------------
+                          Toast.show("Pig", context, duration: Toast.LENGTH_SHORT, gravity:  Toast.BOTTOM);
                         },
                         child: null,
                       ),
@@ -157,6 +161,7 @@ class _MammalsState extends State<Mammals> {
                           //  duration: Duration(milliseconds: 400),
                           //));
                           //-------------------------------
+                          Toast.show("Rhino", context, duration: Toast.LENGTH_SHORT, gravity:  Toast.BOTTOM);
                         },
                         child: null,
                       ),
@@ -194,6 +199,7 @@ class _MammalsState extends State<Mammals> {
                          //   duration: Duration(milliseconds: 400),
                          // ));
                           //-------------------------------
+                          Toast.show("Lamb", context, duration: Toast.LENGTH_SHORT, gravity:  Toast.BOTTOM);
                         },
                         child: null,
                       ),
@@ -225,6 +231,7 @@ class _MammalsState extends State<Mammals> {
                         //    duration: Duration(milliseconds: 400),
                          // ));
                           //-------------------------------
+                          Toast.show("Horse", context, duration: Toast.LENGTH_SHORT, gravity:  Toast.BOTTOM);
                         },
                         child: null,
                       ),
