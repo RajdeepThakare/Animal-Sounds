@@ -53,10 +53,10 @@ class _ReptilesState extends State<Reptiles> {
                         onPressed: () {
                           _audioCache.play('alligator.mp3');
                           //------------------------------
-                          Scaffold.of(context).showSnackBar(SnackBar(
-                            content: Text('Alligator...'),
-                            duration: Duration(milliseconds: 400),
-                          ));
+                       //   Scaffold.of(context).showSnackBar(SnackBar(
+                        //    content: Text('Alligator...'),
+                        //    duration: Duration(milliseconds: 400),
+                        //  ));
                           //-------------------------------
                         },
                         child: null,
@@ -84,10 +84,10 @@ class _ReptilesState extends State<Reptiles> {
                         onPressed: () {
                           _audioCache.play('argentiniantortoise.mp3');
                           //------------------------------
-                          Scaffold.of(context).showSnackBar(SnackBar(
-                            content: Text('argentinian tortoise....'),
-                            duration: Duration(milliseconds: 400),
-                          ));
+                        //  Scaffold.of(context).showSnackBar(SnackBar(
+                         //   content: Text('argentinian tortoise....'),
+                         //   duration: Duration(milliseconds: 400),
+                         // ));
                           //-------------------------------
                         },
                         child: null,
@@ -121,10 +121,10 @@ class _ReptilesState extends State<Reptiles> {
                         onPressed: () {
                           _audioCache.play('cobra.mp3');
                           //------------------------------
-                          Scaffold.of(context).showSnackBar(SnackBar(
-                            content: Text('Cobra'),
-                            duration: Duration(milliseconds: 400),
-                          ));
+                         // Scaffold.of(context).showSnackBar(SnackBar(
+                         //   content: Text('Cobra'),
+                          //  duration: Duration(milliseconds: 400),
+                          //));
                           //-------------------------------
                         },
                         child: null,
@@ -152,10 +152,10 @@ class _ReptilesState extends State<Reptiles> {
                         onPressed: () {
                           _audioCache.play('gecko.m4a');
                           //------------------------------
-                          Scaffold.of(context).showSnackBar(SnackBar(
-                            content: Text('Gecko .....'),
-                            duration: Duration(milliseconds: 400),
-                          ));
+                         // Scaffold.of(context).showSnackBar(SnackBar(
+                         //   content: Text('Gecko .....'),
+                         //   duration: Duration(milliseconds: 400),
+                         // ));
                           //-------------------------------
                         },
                         child: null,
@@ -189,10 +189,10 @@ class _ReptilesState extends State<Reptiles> {
                         onPressed: () {
                           _audioCache.play('indiangharil.m4a');
                           //------------------------------
-                          Scaffold.of(context).showSnackBar(SnackBar(
-                            content: Text('Indain Gharil...'),
-                            duration: Duration(milliseconds: 400),
-                          ));
+                        //  Scaffold.of(context).showSnackBar(SnackBar(
+                        //    content: Text('Indain Gharil...'),
+                         //   duration: Duration(milliseconds: 400),
+                         // ));
                           //-------------------------------
                         },
                         child: null,
@@ -220,10 +220,10 @@ class _ReptilesState extends State<Reptiles> {
                         onPressed: () {
                           _audioCache.play('rattlesnake.mp3');
                           //------------------------------
-                          Scaffold.of(context).showSnackBar(SnackBar(
-                            content: Text('Rattle Snake'),
-                            duration: Duration(milliseconds: 400),
-                          ));
+                        //  Scaffold.of(context).showSnackBar(SnackBar(
+                        //    content: Text('Rattle Snake'),
+                         //   duration: Duration(milliseconds: 400),
+                         // ));
                           //-------------------------------
                         },
                         child: null,

@@ -53,10 +53,10 @@ class _MammalsState extends State<Mammals> {
                         onPressed: () {
                           _audioCache.play('cat.mp3');
                           //------------------------------
-                          Scaffold.of(context).showSnackBar(SnackBar(
-                            content: Text('Cat Meoww'),
-                            duration: Duration(milliseconds: 400),
-                          ));
+                         // Scaffold.of(context).showSnackBar(SnackBar(
+                         //   content: Text('Cat Meoww'),
+                         //   duration: Duration(milliseconds: 400),
+                        //  ));
                           //-------------------------------
                         },
                         child: null,
@@ -84,10 +84,10 @@ class _MammalsState extends State<Mammals> {
                         onPressed: () {
                           _audioCache.play('dog.mp3');
                           //------------------------------
-                          Scaffold.of(context).showSnackBar(SnackBar(
-                            content: Text('Dog Bark'),
-                            duration: Duration(milliseconds: 400),
-                          ));
+                        //  Scaffold.of(context).showSnackBar(SnackBar(
+                         //   content: Text('Dog Bark'),
+                         //   duration: Duration(milliseconds: 400),
+                         // ));
                           //-------------------------------
                         },
                         child: null,
@@ -121,10 +121,10 @@ class _MammalsState extends State<Mammals> {
                         onPressed: () {
                           _audioCache.play('pig.mp3');
                           //------------------------------
-                          Scaffold.of(context).showSnackBar(SnackBar(
-                            content: Text('Pig Squeal'),
-                            duration: Duration(milliseconds: 400),
-                          ));
+                       //   Scaffold.of(context).showSnackBar(SnackBar(
+                        //    content: Text('Pig Squeal'),
+                         //   duration: Duration(milliseconds: 400),
+                        //  ));
                           //-------------------------------
                         },
                         child: null,
@@ -152,10 +152,10 @@ class _MammalsState extends State<Mammals> {
                         onPressed: () {
                           _audioCache.play('rhino.mp3');
                           //------------------------------
-                          Scaffold.of(context).showSnackBar(SnackBar(
-                            content: Text('Rhinos .....'),
-                            duration: Duration(milliseconds: 400),
-                          ));
+                         // Scaffold.of(context).showSnackBar(SnackBar(
+                          //  content: Text('Rhinos .....'),
+                          //  duration: Duration(milliseconds: 400),
+                          //));
                           //-------------------------------
                         },
                         child: null,
@@ -189,10 +189,10 @@ class _MammalsState extends State<Mammals> {
                         onPressed: () {
                           _audioCache.play('lamb.wav');
                           //------------------------------
-                          Scaffold.of(context).showSnackBar(SnackBar(
-                            content: Text('Lamb Baaa'),
-                            duration: Duration(milliseconds: 400),
-                          ));
+                         // Scaffold.of(context).showSnackBar(SnackBar(
+                         //   content: Text('Lamb Baaa'),
+                         //   duration: Duration(milliseconds: 400),
+                         // ));
                           //-------------------------------
                         },
                         child: null,
@@ -220,10 +220,10 @@ class _MammalsState extends State<Mammals> {
                         onPressed: () {
                           _audioCache.play('horse.wav');
                           //------------------------------
-                          Scaffold.of(context).showSnackBar(SnackBar(
-                            content: Text('Horse Whynning'),
-                            duration: Duration(milliseconds: 400),
-                          ));
+                        //  Scaffold.of(context).showSnackBar(SnackBar(
+                        //    content: Text('Horse Whynning'),
+                        //    duration: Duration(milliseconds: 400),
+                         // ));
                           //-------------------------------
                         },
                         child: null,

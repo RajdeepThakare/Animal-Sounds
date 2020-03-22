@@ -52,10 +52,10 @@ class _BirdsState extends State<Birds> {
                         onPressed: () {
                           _audioCache.play('raven.mp3');
                           //------------------------------
-                          Scaffold.of(context).showSnackBar(SnackBar(
-                            content: Text('Raven...'),
-                            duration: Duration(milliseconds: 400),
-                          ));
+                         // Scaffold.of(context).showSnackBar(SnackBar(
+                         //   content: Text('Raven...'),
+                         //   duration: Duration(milliseconds: 400),
+                         // ));
                           //-------------------------------
                         },
                         child: null,
@@ -83,10 +83,10 @@ class _BirdsState extends State<Birds> {
                         onPressed: () {
                           _audioCache.play('redlori.mp3');
                           //------------------------------
-                          Scaffold.of(context).showSnackBar(SnackBar(
-                            content: Text('RedLori....'),
-                            duration: Duration(milliseconds: 400),
-                          ));
+                         // Scaffold.of(context).showSnackBar(SnackBar(
+                         //   content: Text('RedLori....'),
+                         //   duration: Duration(milliseconds: 400),
+                         // ));
                           //-------------------------------
                         },
                         child: null,
@@ -120,10 +120,10 @@ class _BirdsState extends State<Birds> {
                         onPressed: () {
                           _audioCache.play('snowowl.mp3');
                           //------------------------------
-                          Scaffold.of(context).showSnackBar(SnackBar(
-                            content: Text('Snow Owl'),
-                            duration: Duration(milliseconds: 400),
-                          ));
+                          //Scaffold.of(context).showSnackBar(SnackBar(
+                          //  content: Text('Snow Owl'),
+                          //  duration: Duration(milliseconds: 400),
+                         // ));
                           //-------------------------------
                         },
                         child: null,
@@ -151,10 +151,10 @@ class _BirdsState extends State<Birds> {
                         onPressed: () {
                           _audioCache.play('sparrow.mp3');
                           //------------------------------
-                          Scaffold.of(context).showSnackBar(SnackBar(
-                            content: Text('Sparrow .....'),
-                            duration: Duration(milliseconds: 400),
-                          ));
+                          //Scaffold.of(context).showSnackBar(SnackBar(
+                         //   content: Text('Sparrow .....'),
+                          //  duration: Duration(milliseconds: 400),
+                         // ));
                           //-------------------------------
                         },
                         child: null,
@@ -188,10 +188,10 @@ class _BirdsState extends State<Birds> {
                         onPressed: () {
                           _audioCache.play('woodpecker.mp3');
                           //------------------------------
-                          Scaffold.of(context).showSnackBar(SnackBar(
-                            content: Text('WoodPecker...'),
-                            duration: Duration(milliseconds: 400),
-                          ));
+                        //  Scaffold.of(context).showSnackBar(SnackBar(
+                        //    content: Text('WoodPecker...'),
+                         //   duration: Duration(milliseconds: 400),
+                         // ));
                           //-------------------------------
                         },
                         child: null,
@@ -219,10 +219,10 @@ class _BirdsState extends State<Birds> {
                         onPressed: () {
                           _audioCache.play('redparrot.mp3');
                           //------------------------------
-                          Scaffold.of(context).showSnackBar(SnackBar(
-                            content: Text('Red Parrot'),
-                            duration: Duration(milliseconds: 400),
-                          ));
+                         // Scaffold.of(context).showSnackBar(SnackBar(
+                         //   content: Text('Red Parrot'),
+                         //   duration: Duration(milliseconds: 400),
+                         // ));
                           //-------------------------------
                         },
                         child: null,

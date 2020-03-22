@@ -54,11 +54,12 @@ class _ArthropodsState extends State<Arthropods> {
                         onPressed: () {
                           _audioCache.play('bee.m4a');
                           //------------------------------
-                          Scaffold.of(context).showSnackBar(SnackBar(
-                            content: Text('Bee...'),
-                            duration: Duration(milliseconds: 400),
-                          ));
+                         // Scaffold.of(context).showSnackBar(SnackBar(
+                         //  content: Text('Bee...'),
+                          //  duration: Duration(milliseconds: 400),
+                         // ));
                           //-------------------------------
+                          
                         },
                         child: null,
                       ),
@@ -85,10 +86,10 @@ class _ArthropodsState extends State<Arthropods> {
                         onPressed: () {
                           _audioCache.play('bumblebee.m4a');
                           //------------------------------
-                          Scaffold.of(context).showSnackBar(SnackBar(
-                            content: Text('Bumble Bee....'),
-                            duration: Duration(milliseconds: 400),
-                          ));
+                         // Scaffold.of(context).showSnackBar(SnackBar(
+                          //  content: Text('Bumble Bee....'),
+                          //  duration: Duration(milliseconds: 400),
+                         // ));
                           //-------------------------------
                         },
                         child: null,
@@ -122,10 +123,10 @@ class _ArthropodsState extends State<Arthropods> {
                         onPressed: () {
                           _audioCache.play('cicada.m4a');
                           //------------------------------
-                          Scaffold.of(context).showSnackBar(SnackBar(
-                            content: Text('Cicada...'),
-                            duration: Duration(milliseconds: 400),
-                          ));
+                         // Scaffold.of(context).showSnackBar(SnackBar(
+                         //   content: Text('Cicada...'),
+                         //   duration: Duration(milliseconds: 400),
+                         // ));
                           //-------------------------------
                         },
                         child: null,
@@ -153,10 +154,10 @@ class _ArthropodsState extends State<Arthropods> {
                         onPressed: () {
                           _audioCache.play('cockroach.m4a');
                           //------------------------------
-                          Scaffold.of(context).showSnackBar(SnackBar(
-                            content: Text('cockroach .....'),
-                            duration: Duration(milliseconds: 400),
-                          ));
+                         // Scaffold.of(context).showSnackBar(SnackBar(
+                         //   content: Text('cockroach .....'),
+                         //   duration: Duration(milliseconds: 400),
+                         // ));
                           //-------------------------------
                         },
                         child: null,
@@ -190,10 +191,10 @@ class _ArthropodsState extends State<Arthropods> {
                         onPressed: () {
                           _audioCache.play('crab.m4a');
                           //------------------------------
-                          Scaffold.of(context).showSnackBar(SnackBar(
-                            content: Text('Crab...'),
-                            duration: Duration(milliseconds: 400),
-                          ));
+                        //  Scaffold.of(context).showSnackBar(SnackBar(
+                        //    content: Text('Crab...'),
+                         //   duration: Duration(milliseconds: 400),
+                        //  ));
                           //-------------------------------
                         },
                         child: null,
@@ -221,10 +222,10 @@ class _ArthropodsState extends State<Arthropods> {
                         onPressed: () {
                           _audioCache.play('mosquito.m4a');
                           //------------------------------
-                          Scaffold.of(context).showSnackBar(SnackBar(
-                            content: Text('Mosquito...'),
-                            duration: Duration(milliseconds: 400),
-                          ));
+                        //  Scaffold.of(context).showSnackBar(SnackBar(
+                        //    content: Text('Mosquito...'),
+                         //   duration: Duration(milliseconds: 400),
+                         // ));
                           //-------------------------------
                         },
                         child: null,
