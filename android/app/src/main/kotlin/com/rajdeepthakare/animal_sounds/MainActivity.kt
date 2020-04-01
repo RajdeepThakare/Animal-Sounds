@@ -1,4 +1,4 @@
-package com.example.animal_sounds
+package com.rajdeepthakare.animal_sounds
 
 import androidx.annotation.NonNull;
 import io.flutter.embedding.android.FlutterActivity

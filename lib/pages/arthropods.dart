@@ -28,225 +28,239 @@ class _ArthropodsState extends State<Arthropods> {
         centerTitle: true,
       ),
       body: SingleChildScrollView(
-        child: Column(
-          children: <Widget>[
-            Padding(
-              padding: const EdgeInsets.fromLTRB(4, 4, 4, 0),
-              child: Row(
-                children: <Widget>[
-                  Builder(
-                    builder: (context) => Container(
-                      height: 200,
-                      width: 200,
-                      decoration: BoxDecoration(
-                        image: DecorationImage(
-                          image: AssetImage('assets/images/arthropods/bee.jpg'),
+        child: Container(
+          child: Column(
+            children: <Widget>[
+              Padding(
+                padding: const EdgeInsets.fromLTRB(4, 4, 4, 0),
+                child: Row(
+                  children: <Widget>[
+                    Expanded(
+                                          child: Builder(
+                        builder: (context) => Container(
+                          height: 200,
+                          width: 200,
+                          decoration: BoxDecoration(
+                            image: DecorationImage(
+                              image: AssetImage('assets/images/arthropods/bee.jpg'),
+                            ),
+                            borderRadius:
+                                new BorderRadius.all(new Radius.circular(50.0)),
+                            border: new Border.all(
+                              color: Colors.grey[800],
+                              width: 4.0,
+                            ),
+                          ),
+                          child: FlatButton(
+                            padding: EdgeInsets.all(0.0),
+                            onPressed: () {
+                              _audioCache.play('bee.m4a');
+                              //------------------------------
+                              // Scaffold.of(context).showSnackBar(SnackBar(
+                              //  content: Text('Bee...'),
+                              //  duration: Duration(milliseconds: 400),
+                              // ));
+                              //-------------------------------
+                              Toast.show("Bee", context, duration: Toast.LENGTH_SHORT, gravity:  Toast.BOTTOM);
+                              
+                            },
+                            child: null,
+                          ),
                         ),
-                        borderRadius:
-                            new BorderRadius.all(new Radius.circular(50.0)),
-                        border: new Border.all(
-                          color: Colors.grey[800],
-                          width: 4.0,
-                        ),
-                      ),
-                      child: FlatButton(
-                        padding: EdgeInsets.all(0.0),
-                        onPressed: () {
-                          _audioCache.play('bee.m4a');
-                          //------------------------------
-                          // Scaffold.of(context).showSnackBar(SnackBar(
-                          //  content: Text('Bee...'),
-                          //  duration: Duration(milliseconds: 400),
-                          // ));
-                          //-------------------------------
-                          Toast.show("Bee", context, duration: Toast.LENGTH_SHORT, gravity:  Toast.BOTTOM);
-                          
-                        },
-                        child: null,
                       ),
                     ),
-                  ),
-                  SizedBox(width: 3),
-                  Builder(
-                    builder: (context) => Container(
-                      height: 200,
-                      width: 200,
-                      decoration: BoxDecoration(
-                        image: DecorationImage(
-                          image: AssetImage(
-                              'assets/images/arthropods/bumblebee.jpg'),
+                    SizedBox(width: 3),
+                    Expanded(
+                                          child: Builder(
+                        builder: (context) => Container(
+                          height: 200,
+                          width: 200,
+                          decoration: BoxDecoration(
+                            image: DecorationImage(
+                              image: AssetImage(
+                                  'assets/images/arthropods/bumblebee.jpg'),
+                            ),
+                            borderRadius:
+                                new BorderRadius.all(new Radius.circular(50.0)),
+                            border: new Border.all(
+                              color: Colors.grey[800],
+                              width: 4.0,
+                            ),
+                          ),
+                          child: FlatButton(
+                            padding: EdgeInsets.all(0.0),
+                            onPressed: () {
+                              _audioCache.play('bumblebee.m4a');
+                              //------------------------------
+                              // Scaffold.of(context).showSnackBar(SnackBar(
+                              //  content: Text('Bumble Bee....'),
+                              //  duration: Duration(milliseconds: 400),
+                              // ));
+                              //-------------------------------
+                              Toast.show("Bumble Bee", context, duration: Toast.LENGTH_SHORT, gravity:  Toast.BOTTOM);
+                            },
+                            child: null,
+                          ),
                         ),
-                        borderRadius:
-                            new BorderRadius.all(new Radius.circular(50.0)),
-                        border: new Border.all(
-                          color: Colors.grey[800],
-                          width: 4.0,
-                        ),
-                      ),
-                      child: FlatButton(
-                        padding: EdgeInsets.all(0.0),
-                        onPressed: () {
-                          _audioCache.play('bumblebee.m4a');
-                          //------------------------------
-                          // Scaffold.of(context).showSnackBar(SnackBar(
-                          //  content: Text('Bumble Bee....'),
-                          //  duration: Duration(milliseconds: 400),
-                          // ));
-                          //-------------------------------
-                          Toast.show("Bumble Bee", context, duration: Toast.LENGTH_SHORT, gravity:  Toast.BOTTOM);
-                        },
-                        child: null,
                       ),
                     ),
-                  ),
-                ],
+                  ],
+                ),
               ),
-            ),
-            Padding(
-              padding: const EdgeInsets.fromLTRB(4, 4, 4, 0),
-              child: Row(
-                children: <Widget>[
-                  Builder(
-                    builder: (context) => Container(
-                      height: 200,
-                      width: 200,
-                      decoration: BoxDecoration(
-                        image: DecorationImage(
-                          image:
-                              AssetImage('assets/images/arthropods/cicada.jpg'),
+              Padding(
+                padding: const EdgeInsets.fromLTRB(4, 4, 4, 0),
+                child: Row(
+                  children: <Widget>[
+                    Expanded(
+                                          child: Builder(
+                        builder: (context) => Container(
+                          height: 200,
+                          width: 200,
+                          decoration: BoxDecoration(
+                            image: DecorationImage(
+                              image:
+                                  AssetImage('assets/images/arthropods/cicada.jpg'),
+                            ),
+                            borderRadius:
+                                new BorderRadius.all(new Radius.circular(50.0)),
+                            border: new Border.all(
+                              color: Colors.grey[800],
+                              width: 4.0,
+                            ),
+                          ),
+                          child: FlatButton(
+                            padding: EdgeInsets.all(0.0),
+                            onPressed: () {
+                              _audioCache.play('cicada.m4a');
+                              //------------------------------
+                              // Scaffold.of(context).showSnackBar(SnackBar(
+                              //   content: Text('Cicada...'),
+                              //   duration: Duration(milliseconds: 400),
+                              // ));
+                              //-------------------------------
+                              Toast.show("Cicada", context, duration: Toast.LENGTH_SHORT, gravity:  Toast.BOTTOM);
+                            },
+                            child: null,
+                          ),
                         ),
-                        borderRadius:
-                            new BorderRadius.all(new Radius.circular(50.0)),
-                        border: new Border.all(
-                          color: Colors.grey[800],
-                          width: 4.0,
-                        ),
-                      ),
-                      child: FlatButton(
-                        padding: EdgeInsets.all(0.0),
-                        onPressed: () {
-                          _audioCache.play('cicada.m4a');
-                          //------------------------------
-                          // Scaffold.of(context).showSnackBar(SnackBar(
-                          //   content: Text('Cicada...'),
-                          //   duration: Duration(milliseconds: 400),
-                          // ));
-                          //-------------------------------
-                          Toast.show("Cicada", context, duration: Toast.LENGTH_SHORT, gravity:  Toast.BOTTOM);
-                        },
-                        child: null,
                       ),
                     ),
-                  ),
-                  SizedBox(width: 3),
-                  Builder(
-                    builder: (context) => Container(
-                      height: 200,
-                      width: 200,
-                      decoration: BoxDecoration(
-                        image: DecorationImage(
-                          image: AssetImage(
-                              'assets/images/arthropods/cockroach.jpg'),
+                    SizedBox(width: 3),
+                    Expanded(
+                                          child: Builder(
+                        builder: (context) => Container(
+                          height: 200,
+                          width: 200,
+                          decoration: BoxDecoration(
+                            image: DecorationImage(
+                              image: AssetImage(
+                                  'assets/images/arthropods/cockroach.jpg'),
+                            ),
+                            borderRadius:
+                                new BorderRadius.all(new Radius.circular(50.0)),
+                            border: new Border.all(
+                              color: Colors.grey[800],
+                              width: 4.0,
+                            ),
+                          ),
+                          child: FlatButton(
+                            padding: EdgeInsets.all(0.0),
+                            onPressed: () {
+                              _audioCache.play('cockroach.m4a');
+                              //------------------------------
+                              // Scaffold.of(context).showSnackBar(SnackBar(
+                              //   content: Text('cockroach .....'),
+                              //   duration: Duration(milliseconds: 400),
+                              // ));
+                              //-------------------------------
+                              Toast.show("Cockroach", context, duration: Toast.LENGTH_SHORT, gravity:  Toast.BOTTOM);
+                            },
+                            child: null,
+                          ),
                         ),
-                        borderRadius:
-                            new BorderRadius.all(new Radius.circular(50.0)),
-                        border: new Border.all(
-                          color: Colors.grey[800],
-                          width: 4.0,
-                        ),
-                      ),
-                      child: FlatButton(
-                        padding: EdgeInsets.all(0.0),
-                        onPressed: () {
-                          _audioCache.play('cockroach.m4a');
-                          //------------------------------
-                          // Scaffold.of(context).showSnackBar(SnackBar(
-                          //   content: Text('cockroach .....'),
-                          //   duration: Duration(milliseconds: 400),
-                          // ));
-                          //-------------------------------
-                          Toast.show("Cockroach", context, duration: Toast.LENGTH_SHORT, gravity:  Toast.BOTTOM);
-                        },
-                        child: null,
                       ),
                     ),
-                  ),
-                ],
+                  ],
+                ),
               ),
-            ),
-            Padding(
-              padding: const EdgeInsets.fromLTRB(4, 4, 4, 4),
-              child: Row(
-                children: <Widget>[
-                  Builder(
-                    builder: (context) => Container(
-                      height: 200,
-                      width: 200,
-                      decoration: BoxDecoration(
-                        image: DecorationImage(
-                          image:
-                              AssetImage('assets/images/arthropods/crab.jpg'),
+              Padding(
+                padding: const EdgeInsets.fromLTRB(4, 4, 4, 4),
+                child: Row(
+                  children: <Widget>[
+                    Expanded(
+                                          child: Builder(
+                        builder: (context) => Container(
+                          height: 200,
+                          width: 200,
+                          decoration: BoxDecoration(
+                            image: DecorationImage(
+                              image:
+                                  AssetImage('assets/images/arthropods/crab.jpg'),
+                            ),
+                            borderRadius:
+                                new BorderRadius.all(new Radius.circular(50.0)),
+                            border: new Border.all(
+                              color: Colors.grey[800],
+                              width: 4.0,
+                            ),
+                          ),
+                          child: FlatButton(
+                            padding: EdgeInsets.all(0.0),
+                            onPressed: () {
+                              _audioCache.play('crab.m4a');
+                              //------------------------------
+                              //  Scaffold.of(context).showSnackBar(SnackBar(
+                              //    content: Text('Crab...'),
+                              //   duration: Duration(milliseconds: 400),
+                              //  ));
+                              //-------------------------------
+                              Toast.show("Crab", context, duration: Toast.LENGTH_SHORT, gravity:  Toast.BOTTOM);
+                            },
+                            child: null,
+                          ),
                         ),
-                        borderRadius:
-                            new BorderRadius.all(new Radius.circular(50.0)),
-                        border: new Border.all(
-                          color: Colors.grey[800],
-                          width: 4.0,
-                        ),
-                      ),
-                      child: FlatButton(
-                        padding: EdgeInsets.all(0.0),
-                        onPressed: () {
-                          _audioCache.play('crab.m4a');
-                          //------------------------------
-                          //  Scaffold.of(context).showSnackBar(SnackBar(
-                          //    content: Text('Crab...'),
-                          //   duration: Duration(milliseconds: 400),
-                          //  ));
-                          //-------------------------------
-                          Toast.show("Crab", context, duration: Toast.LENGTH_SHORT, gravity:  Toast.BOTTOM);
-                        },
-                        child: null,
                       ),
                     ),
-                  ),
-                  SizedBox(width: 3),
-                  Builder(
-                    builder: (context) => Container(
-                      height: 200,
-                      width: 200,
-                      decoration: BoxDecoration(
-                        image: DecorationImage(
-                          image: AssetImage(
-                              'assets/images/arthropods/mosquito.jpg'),
+                    SizedBox(width: 3),
+                    Expanded(
+                                          child: Builder(
+                        builder: (context) => Container(
+                          height: 200,
+                          width: 200,
+                          decoration: BoxDecoration(
+                            image: DecorationImage(
+                              image: AssetImage(
+                                  'assets/images/arthropods/mosquito.jpg'),
+                            ),
+                            borderRadius:
+                                new BorderRadius.all(new Radius.circular(50.0)),
+                            border: new Border.all(
+                              color: Colors.grey[800],
+                              width: 4.0,
+                            ),
+                          ),
+                          child: FlatButton(
+                            padding: EdgeInsets.all(0.0),
+                            onPressed: () {
+                              _audioCache.play('mosquito.m4a');
+                              //------------------------------
+                              //  Scaffold.of(context).showSnackBar(SnackBar(
+                              //    content: Text('Mosquito...'),
+                              //   duration: Duration(milliseconds: 400),
+                              // ));
+                              //-------------------------------
+                              Toast.show("Mosquito", context, duration: Toast.LENGTH_SHORT, gravity:  Toast.BOTTOM);
+                            },
+                            child: null,
+                          ),
                         ),
-                        borderRadius:
-                            new BorderRadius.all(new Radius.circular(50.0)),
-                        border: new Border.all(
-                          color: Colors.grey[800],
-                          width: 4.0,
-                        ),
-                      ),
-                      child: FlatButton(
-                        padding: EdgeInsets.all(0.0),
-                        onPressed: () {
-                          _audioCache.play('mosquito.m4a');
-                          //------------------------------
-                          //  Scaffold.of(context).showSnackBar(SnackBar(
-                          //    content: Text('Mosquito...'),
-                          //   duration: Duration(milliseconds: 400),
-                          // ));
-                          //-------------------------------
-                          Toast.show("Mosquito", context, duration: Toast.LENGTH_SHORT, gravity:  Toast.BOTTOM);
-                        },
-                        child: null,
                       ),
                     ),
-                  ),
-                ],
+                  ],
+                ),
               ),
-            ),
-          ],
+            ],
+          ),
         ),
       ),
     );
